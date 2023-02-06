@@ -1,0 +1,22 @@
+# -- DATOS DE LA CONEXION --
+#usr = sa
+#pwd = 
+#driver = org.hsqldb.jdbcDriver
+#url = jdbc:hsqldb:hsql://localhost:9001/testdb
+# -- DATOS DEL POOL DE CONEXIONES --
+#minsize=3
+#maxsize=8
+#steep=2
+<connection-pool>
+ <jdbc>
+ <usr>sa</usr>
+ <pwd></pwd>
+ <url>jdbc:hsqldb:hsql://localhost/xdb</url>
+ <driver>org.hsqldb.jdbcDriver</driver>
+ </jdbc>
+ <pool>
+ <minsize>3</minsize>
+ <maxsize>8</maxsize>
+ <steep>3</steep>
+ </pool>
+</connection-pool>
